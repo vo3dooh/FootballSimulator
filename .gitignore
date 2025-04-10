@@ -1,0 +1,15 @@
+Library/
+obj/
+.vs/
+*.csproj
+*.sln
+*.apk
+*.user
+*.pidb
+*.unityproj
+*.userprefs
+*.DS_Store
+Temp/
+Logs/
+UserSettings/
+Football Story_BurstDebugInformation_DoNotShip/

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0261f870b66c914da9c676ec7414bac, type: 3}
+  m_Name: LeoAnimationConfig
+  m_EditorClassIdentifier: 
+  startAnchorPosX: -1.5
+  startAnchorPosY: -1.5
+  targetAnchorPosX: 1
+  targetAnchorPosY: 0
+  startScaleWidth: 0.5
+  startScaleHeight: 1
+  targetScaleWidth: 0.5
+  targetScaleHeight: 1
+  moveDuration: 1
