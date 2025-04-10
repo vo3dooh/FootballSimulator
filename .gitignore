@@ -1,15 +1,30 @@
-Library/
-obj/
+# Игнорировать файлы, создаваемые Unity
+/[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+
+# Игнорировать файлы, создаваемые Visual Studio
 .vs/
-*.csproj
-*.sln
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+
+# Игнорировать файлы, создаваемые JetBrains Rider
+.idea/
+*.iml
+
+# Игнорировать файлы, создаваемые системой
+.DS_Store
+Thumbs.db
+
+# Игнорировать файлы сборки
 *.apk
-*.user
-*.pidb
-*.unityproj
-*.userprefs
-*.DS_Store
-Temp/
-Logs/
-UserSettings/
-Football Story_BurstDebugInformation_DoNotShip/
+*.aab
+*.unitypackage
+*.app
